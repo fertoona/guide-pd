@@ -1,0 +1,33 @@
+.attractions-header {
+  padding: 2rem;
+  background-color: var(--color-purple);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.attractions-header__title {
+  color: var(--color-white);
+}
+
+.attractions__container {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.attractions__container:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.attractions__img {
+  height: 25rem;
+}
+
+.attractions__name {
+  font-weight: bold;
+  width: 20%;
+  text-align: center;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="./navigationPage.css" />
+    <title>Содержание</title>
+
+    <script type="module" src="../js/navigation.js"></script>
+  </head>
+  <body>
+    <header class="navigation-header">
+      <h1 class="navigation-header__title">Содержание</h1>
+      <a
+        class="navigation-header__logo"
+        href="https://mospolytech.ru/"
+        target="_blank"
+      >
+        <img src="../assets/images/logo.png" alt="" />
+      </a>
+    </header>
+    <main>
+      <nav class="navigation__wrapper">
+        <ul class="navigation-list" id="navigationList">
+          <li class="navigation-list__element" aria-category="adaptation">
+            Язык и адаптация
+          </li>
+          <li class="navigation-list__element" aria-category="living">
+            Жилье и проживание
+          </li>
+          <li class="navigation-list__element" aria-category="documents">
+            Документы
+          </li>
+          <li class="navigation-list__element" aria-category="support">
+            Обращение за помощью
+          </li>
+          <li class="navigation-list__element" aria-category="medicine">
+            Здравоохранение
+          </li>
+          <li class="navigation-list__element" aria-category="safety">
+            Безопасность и правила
+          </li>
+          <li class="navigation-list__element" aria-category="education">
+            Учеба и образование
+          </li>
+          <li class="navigation-list__element" aria-category="store">
+            Полезные магазины и услуги
+          </li>
+          <li class="navigation-list__element" aria-category="entertainment">
+            Развлечения и туризм
+          </li>
+        </ul>
+        <ul class="navigation-results" id="navigationResults"></ul>
+      </nav>
+    </main>
+  </body>
+</html>

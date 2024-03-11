@@ -1,0 +1,8 @@
+{
+  "name": "guide-pd",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:fertoona/guide-pd.git",
+  "author": "Anna Demchenko <annademcenko1014@gmail.com>",
+  "license": "MIT"
+}
