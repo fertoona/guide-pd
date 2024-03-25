@@ -9,8 +9,8 @@ export default {
       href: './adaptation/apps.html',
     },
     {
-      title: 'Как получить sim-карту',
-      href: '#',
+      title: 'Как получить сим-карту',
+      href: './adaptation/sim.html',
     },
     {
       title: 'Переводчик',
