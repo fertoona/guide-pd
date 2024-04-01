@@ -19,12 +19,12 @@ export default {
   ],
   living: [
     {
-      title: 'Как снять комнату',
-      href: '#',
+      title: 'Как снять жилье',
+      href: './living/renting.html',
     },
     {
-      title: 'Регистрация в банке',
-      href: '#',
+      title: 'Банковская карта',
+      href: './living/card.html',
     },
     {
       title: 'Договор на общежитие',
@@ -101,7 +101,7 @@ export default {
     },
     {
       title: 'Обмен валюты',
-      href: '#',
+      href: './store/change.html',
     },
   ],
   entertainment: [

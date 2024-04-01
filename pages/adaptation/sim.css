@@ -150,8 +150,6 @@
 }
 
 .sim-card__title {
-  /* text-align: center; */
   font-weight: bold;
   color: var(--color-black);
-  /* position: absolute; */
 }

@@ -1,0 +1,138 @@
+.renting-header {
+    padding: 2rem;
+    background-color: var(--color-purple);
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .renting-header__title {
+    color: var(--color-white);
+  }
+
+  .renting-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+    margin-top: 4rem;
+  }
+  
+  .renting-info__text{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 1.2rem;
+  }
+  
+  .renting-info__text p {
+    margin: 1rem;
+  }
+
+  .renting-info__text-title {
+    color: var(--color-purple);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+
+  .renting-docs {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+  
+  .renting-docs-1__text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .renting-docs-1__text span {
+    color: var(--color-purple);
+    font-weight: bold;
+  }
+  
+  .renting-docs-1__text p {
+    width:75%;
+    margin: 0 auto;
+    padding: 0.3rem;
+    text-align: left;
+  }
+  
+  .renting-docs-2__text{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .renting-docs-2__text span{
+    color: var(--color-purple);
+    font-weight: bold;
+  }
+  .renting-docs-2__text p{
+    width:75%;
+    text-align: left;
+  }
+
+  .renting-part {
+    text-align: center;
+    color: var(--color-purple);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+  .renting-services-1row,
+.renting-services-2row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 8rem;
+  height: 20rem;
+}
+
+.renting-card {
+  height: 100%;
+  aspect-ratio: 1/1.25;
+  box-shadow: 0 0 10px 0;
+  color: var(--color-gray);
+  background-color: var(--color-white);
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.renting-card:hover {
+  scale: 1.2;
+}
+
+.renting-card__img img {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.renting-card__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  max-width: 100%;
+  margin: 0 0 4rem 0;
+}
+
+.renting-card__img_tiny img {
+  width: 70%;
+}
+
+.renting-card__title {
+  font-weight: bold;
+  color: var(--color-black);
+}
+
+  
