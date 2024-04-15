@@ -1,0 +1,73 @@
+.pasport-header {
+  padding: 2rem;
+  background-color: var(--color-purple);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.pasport-header__title {
+  color: var(--color-white);
+}
+
+.pasport-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+}
+
+.pasport-info p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: var(--color-black);
+  margin: 1.2rem;
+}
+
+.pasport-info__text p {
+  margin: 1rem;
+}
+
+.pasport-info__text span {
+  color: var(--color-purple);
+  font-weight: bold;
+}
+
+.pasport-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  margin: 0 auto;
+  padding: 1rem 0 4rem 0;
+}
+
+.pasport-img img {
+  width: 80%;
+}
+
+.pasport-conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  padding: 4rem 2rem 4rem 2rem;
+}
+.pasport-conditions__title {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--color-purple);
+  font-weight: bold;
+}
+.pasport-conditions__text {
+  text-align: left;
+  color: var(--color-black);
+  text-align: justify;
+}

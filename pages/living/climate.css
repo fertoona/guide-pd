@@ -1,0 +1,86 @@
+.climate-header {
+  padding: 2rem;
+  background-color: var(--color-purple);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.climate-header__title {
+  color: var(--color-white);
+}
+
+.climate-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+}
+
+.climate-info p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: var(--color-black);
+  margin: 1.2rem;
+}
+
+.climate-info__text p {
+  margin: 1rem;
+}
+
+.climate-info__text span {
+  color: var(--color-purple);
+  font-weight: bold;
+}
+
+.climate-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.climate-img img {
+  width: 10rem;
+}
+
+.climate-intro{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem 0 1rem 0;
+}
+
+.climate-spring,
+.climate-summer,
+.climate-autumn,
+.climate-winter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+    font-size: 1.5rem;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  
+  .climate-spring span,
+  .climate-summer span,
+  .climate-autumn span,
+  .climate-winter span{
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+
+  .climate-spring__text,
+  .climate-summer__text,
+  .climate-autumn__text,
+  .climate-winter__text{
+    text-align: left;
+    color: var(--color-black);
+    text-align: justify;
+  }

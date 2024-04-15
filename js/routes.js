@@ -31,14 +31,14 @@ export default {
       href: '#',
     },
     {
-      title: 'Теплая одежда (Что брать с собой в Россию)',
-      href: '#',
+      title: 'Климатические условия',
+      href: './living/climate.html',
     },
   ],
   documents: [
     {
       title: 'Перевод паспорта',
-      href: '#',
+      href: './documents/pasport.html',
     },
     {
       title: 'Как оформить регистрацию',
