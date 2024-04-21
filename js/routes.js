@@ -14,7 +14,7 @@ export default {
     },
     {
       title: 'Переводчик',
-      href: '#',
+      href: './adaptation/translate.html',
     },
   ],
   living: [
@@ -111,7 +111,7 @@ export default {
     },
     {
       title: 'Интерклуб Московского политеха',
-      href: '#',
+      href: './entertainment/interclub.html',
     },
   ],
 };

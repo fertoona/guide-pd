@@ -1,0 +1,80 @@
+.interclub-header {
+    padding: 2rem;
+    background-color: var(--color-purple);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.interclub-header__title {
+    color: var(--color-white);
+}
+
+.interclub-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.interclub-title p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-black);
+    padding-top: 3.5rem;
+}
+
+.interclub-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+}
+
+.interclub-info p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 1.2rem;
+}
+
+.interclub-info__text p {
+    margin: 1rem;
+}
+
+.interclub-info__text span {
+    color: var(--color-purple);
+    font-weight: bold;
+}
+
+.interclub-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+    font-size: 1.5rem;
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+.interclub-links span {
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: var(--color-purple);
+}
+
+.interclub-links__text {
+    text-align: left;
+    color: var(--color-black);
+    text-align: justify;
+}
+
+.interclub-links__text a {
+    color: var(--color-black);
+    text-decoration: underline;
+}
