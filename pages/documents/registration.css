@@ -1,0 +1,81 @@
+.registration-header {
+  padding: 2rem;
+  background-color: var(--color-purple);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.registration-header__title {
+  color: var(--color-white);
+}
+
+.registration-info,
+.registration-term {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+  }
+  
+  .registration-info p ,
+  .registration-term p {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 1.2rem;
+  }
+  
+  .registration-info__text p ,
+  .registration-term__text p {
+    margin: 1rem;
+  }
+  
+  .registration-info__text span, 
+  .registration-term__text span {
+    color: var(--color-purple);
+    font-weight: bold;
+  }
+
+  .registration-procedure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+    font-size: 1.5rem;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .registration-procedure span {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--color-purple);
+    font-weight: bold;
+    width: 120%;
+  }
+  .registration-procedure__text {
+    text-align: left;
+    color: var(--color-black);
+    text-align: justify;
+  }
+
+  .registration-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.registration-title p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-purple);
+    padding: 1rem 0 3rem 0;
+    width: 70%;
+    font-weight: bold;
+}

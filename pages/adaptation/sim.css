@@ -10,7 +10,7 @@
 }
 
 .sim-partitions {
-  border: 0.2rem dotted;
+  border: 0.5rem dotted;
   color: var(--color-purple);
   padding: 1rem;
   margin-top: 3rem;

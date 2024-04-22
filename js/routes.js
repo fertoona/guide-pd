@@ -28,7 +28,7 @@ export default {
     },
     {
       title: 'Договор на общежитие',
-      href: '#',
+      href: './living/dormitory.html',
     },
     {
       title: 'Климатические условия',
@@ -42,7 +42,7 @@ export default {
     },
     {
       title: 'Как оформить регистрацию',
-      href: '#',
+      href: './documents/registration.html',
     },
     {
       title: 'Получение разрешения на работу',
@@ -66,13 +66,13 @@ export default {
   medicine: [
     {
       title: 'Медицинские услуги',
-      href: '#',
+      href: './medicine/medicine.html',
     },
   ],
   safety: [
     {
       title: 'Указание цели пребывания в аэропорту',
-      href: '#',
+      href: './safety/airport.html',
     },
     {
       title: 'Что не нужно делать',

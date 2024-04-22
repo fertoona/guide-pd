@@ -1,0 +1,65 @@
+.dormitory-header {
+    padding: 2rem;
+    background-color: var(--color-purple);
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .dormitory-header__title {
+    color: var(--color-white);
+  }
+
+  .dormitory-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+  }
+  
+  .dormitory-info p{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 1.2rem;
+  }
+  
+  .dormitory-info__text p  {
+    margin: 1rem;
+  }
+  
+  .dormitory-info__text span {
+    color: var(--color-purple);
+    font-weight: bold;
+  }
+  .dormitory-conditions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3rem auto;
+    border: 0.5rem dotted;
+    color: var(--color-purple);
+    font-size: 1.5rem;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .dormitory-conditions span {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--color-purple);
+    font-weight: bold;
+    /* width: 100%; */
+  }
+  .dormitory-conditions__text {
+    text-align: left;
+    color: var(--color-black);
+    text-align: justify;
+  }
+  
+  .dormitory-conditions__text span {
+    color: var(--color-purple);
+    font-weight: lighter;
+  }

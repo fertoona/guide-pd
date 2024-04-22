@@ -1,0 +1,56 @@
+.airport-header {
+    padding: 2rem;
+    background-color: var(--color-purple);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.airport-header__title {
+    color: var(--color-white);
+}
+
+.airport-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.airport-title p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-black);
+    padding-top: 3.5rem;
+    width: 70%;
+}
+
+.airport-info {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.airport-info p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-black);
+    margin: 1.2rem;
+}
+
+.airport-info__text p {
+    margin: 1rem;
+}
+
+.airport-info__text span {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-purple);
+    font-weight: bold;
+}
