@@ -1,0 +1,34 @@
+.handling-header {
+  padding: 2rem;
+  background-color: var(--color-purple);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.handling-header__title {
+  color: var(--color-white);
+}
+
+.handling-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.handling-info__text span {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--color-purple);
+  font-weight: bold;
+}
+.handling-info__text {
+  text-align: left;
+  color: var(--color-black);
+  text-align: justify;
+}

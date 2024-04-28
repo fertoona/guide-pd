@@ -14,7 +14,7 @@
 }
 
 .support-partitions {
-  border: 0.2rem dotted;
+  border: 0.5rem dotted;
   color: var(--color-purple);
   padding: 1rem;
   margin-top: 4rem;
@@ -23,10 +23,10 @@
 }
 
 .support-partitions span {
-    color: var(--color-black);
-    font-weight: bold;
-    font-size: 2.5rem;
-    font-family: Gilroy, sans-serif;
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: Gilroy, sans-serif;
 }
 
 .supports-cards {
@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
-  gap: 8rem;
+  gap: 3rem;
   height: 25rem;
 }
 
@@ -50,19 +50,49 @@
   transition: 0.5s;
 }
 
-.support-card__img{
-    height: 50%;
-    margin-bottom: 2.5rem;
+.support-card__img {
+  height: 50%;
+  margin-bottom: 2.5rem;
 }
 
 .support-card__title {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: var(--color-black);
-    margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--color-black);
+  margin-bottom: 1rem;
 }
 
 .support-card__desc {
-    font-size: 1.2rem;
-    color: var(--color-black);
+  font-size: 1.2rem;
+  color: var(--color-black);
+}
+
+.support-fireman,
+.support-policy,
+.support-ambulance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.support-fireman__text span,
+.support-policy__text span,
+.support-ambulance__text span {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--color-purple);
+  font-weight: bold;
+}
+.support-fireman__text,
+.support-policy__text,
+.support-ambulance__text {
+  text-align: left;
+  color: var(--color-black);
+  text-align: justify;
 }
