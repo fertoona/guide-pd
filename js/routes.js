@@ -54,12 +54,12 @@ export default {
     },
     {
       title: 'Получение спраки №4 для физкультуры',
-      href: '#',
+      href: './documents/certificate.html',
     },
     {
       title:
         'Получение разрешения на работу в России (работа в Политехническом университете)',
-      href: '#',
+      href: './documents/work.html',
     },
   ],
   support: [
@@ -89,7 +89,7 @@ export default {
     },
     {
       title: 'Как заказать такси',
-      href: '#',
+      href: './safety/taxi.html',
     },
   ],
   store: [

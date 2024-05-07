@@ -1,0 +1,76 @@
+.work-header {
+  padding: 2rem;
+  background-color: var(--color-purple);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.work-header__title {
+  color: var(--color-white);
+}
+
+.work-info,
+.work-vacancy,
+.work-important {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+}
+
+.work-info p,
+.work-vacancy p,
+.work-important p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color-black);
+  margin: 1.2rem;
+}
+
+.work-info__text p,
+.work-vacancy p,
+.work-important p {
+  margin: 1rem;
+}
+
+.work-info__text span,
+.work-vacancy span,
+.work-important span {
+  color: var(--color-purple);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.work-vacancy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.work-vacancy span {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  color: var(--color-purple);
+}
+
+.work-vacancy__text {
+  text-align: left;
+  color: var(--color-black);
+  text-align: justify;
+}
+
+.work-vacancy__text a {
+  color: var(--color-black);
+  text-decoration: underline;
+}
