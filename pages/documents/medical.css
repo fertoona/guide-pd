@@ -1,0 +1,63 @@
+.medical-header {
+  padding: 2rem;
+  background-color: var(--color-purple);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.medical-header__title {
+  color: var(--color-white);
+}
+
+.medical-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+}
+
+.medical-info p {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: var(--color-black);
+  margin: 1.2rem;
+}
+
+.medical-info__text p {
+  margin: 1rem;
+}
+
+.medical-info__text span {
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.medical-doc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 3rem auto;
+  border: 0.5rem dotted;
+  color: var(--color-purple);
+  font-size: 1.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.medical-doc__title {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--color-purple);
+  font-weight: bold;
+}
+
+.medical-doc__text {
+  text-align: left;
+  color: var(--color-black);
+  text-align: justify;
+}

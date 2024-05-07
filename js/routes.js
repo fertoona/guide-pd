@@ -49,8 +49,9 @@ export default {
       href: '#',
     },
     {
-      title: 'Дактилоскопия',
-      href: '#',
+      title:
+        'Медицинское освидетельствование, дактилоскопическая регистрация и фотографирование',
+      href: './documents/madical.html',
     },
     {
       title: 'Получение спраки №4 для физкультуры',
@@ -95,7 +96,7 @@ export default {
   store: [
     {
       title: 'Полезные магазины',
-      href: '#',
+      href: './store/shop.html',
     },
     {
       title: 'Обмен валюты',
