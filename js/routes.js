@@ -46,7 +46,7 @@ export default {
     },
     {
       title: 'Разрешение на временное проживание',
-      href: '#',
+      href: './documents/permission.html',
     },
     {
       title:
@@ -85,8 +85,8 @@ export default {
       href: './safety/airport.html',
     },
     {
-      title: 'Что не нужно делать',
-      href: '#',
+      title: 'Что не рекомендуется иностранным гражданам делать в России',
+      href: './safety/advice.html',
     },
     {
       title: 'Как заказать такси',
