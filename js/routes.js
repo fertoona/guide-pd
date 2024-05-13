@@ -51,7 +51,7 @@ export default {
     {
       title:
         'Медицинское освидетельствование, дактилоскопическая регистрация и фотографирование',
-      href: './documents/madical.html',
+      href: './documents/medical.html',
     },
     {
       title: 'Получение спраки №4 для физкультуры',

@@ -71,3 +71,60 @@
 .card-img img {
     width: 80%;
 }
+
+.card-part {
+  text-align: center;
+  color: var(--color-purple);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+.card-card {
+  height: 100%;
+  aspect-ratio: 1/1.25;
+  box-shadow: 0 0 10px 0;
+  color: var(--color-gray);
+  background-color: var(--color-white);
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  transition: 0.5s;
+}
+.card-banks-1row,
+.card-banks-2row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 8rem;
+  height: 20rem;
+}
+
+.card-card:hover {
+  scale: 1.2;
+}
+
+.card-card__img img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-card__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  max-width: 100%;
+  margin: 0 0 4rem 0;
+}
+
+.card-card__img_tiny img {
+  width: 70%;
+}
+
+.card-card__title {
+  font-weight: bold;
+  color: var(--color-black);
+}

@@ -33,11 +33,16 @@
   padding: 2rem 1rem 1rem 1rem;
   border-radius: 2rem;
   text-align: center;
+  transition: 0.5s;
+}
+
+.shop-card:hover {
+  scale: 1.2;
 }
 
 .shop-card__img img {
   height: 100%;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .shop-card__img {
